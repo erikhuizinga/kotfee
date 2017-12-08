@@ -1,4 +1,4 @@
-# kotfee :coffee:
+# kotfee ☕️
 
 [Google's Dagger 2.13 coffee maker example](https://github.com/google/dagger/tree/dagger-2.13/examples/simple) in Kotlin.
 
