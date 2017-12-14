@@ -26,6 +26,7 @@ Temporary Items
 *.tar.gz
 *.rar
 .idea
+*.iml
 hs_err_pid*
 Thumbs.db
 ehthumbs.db
