@@ -2,7 +2,7 @@ package io.github.erikhuizinga.kotfee
 
 /** Created by Erik Huizinga on 7-12-17 */
 class ElectricHeater : Heater {
-  var heating: Boolean = false
+  private var heating: Boolean = false
 
   override fun on() {
     println("~ ~ ~ heating ~ ~ ~")
@@ -13,5 +13,5 @@ class ElectricHeater : Heater {
     heating = false
   }
 
-  override fun isHot() = heating
+  override val isHot get() = heating
 }

@@ -4,5 +4,5 @@ package io.github.erikhuizinga.kotfee
 interface Heater {
   fun on()
   fun off()
-  fun isHot(): Boolean
+  val isHot: Boolean
 }
